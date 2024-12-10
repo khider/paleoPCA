@@ -1,0 +1,21 @@
+shortname: PaleoPCA
+type: Paleobook
+thumbnail: LinkedEarth.png
+parts:
+  - caption: Science Bits
+    chapters:
+      - shortname: Model-Data Comparison
+        filename: paleoPCA
+        thumbnail: eof.png
+        tags:
+          domains:
+            - paleoceanography
+            - PCA
+            - modeling
+          packages:
+            - xarray
+            - pyleoclim
+            - cartopy
+            - matplotlib
+            - pandas
+            - eofs
