@@ -2,20 +2,22 @@ name: paleoPCA-Cookbook
 channels:
   - conda-forge
 dependencies:
-  - python<3.12
-  - jupyter-book
+  - python=3.12
   - jupyterlab
-  - sphinx-pythia-theme
+  - jupyterlab-myst
   - pip
   - pandas
-  - xarray
   - s3fs
   - fsspec
   - numpy
   - cartopy
   - matplotlib
-  - eofs
-  - nc-time-axis
-  - h5netcdf
   - pip:
     - pyleoclim
+    - xarray
+    - h5netcdf
+    - nc-time-axis
+    - eofs
+    - h5py
+  - mystmd
+  
